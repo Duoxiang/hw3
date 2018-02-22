@@ -33,7 +33,7 @@ class App extends Component {
   dealHand() {
     let cards = shuffledDeck();
       this.setState({
-        hand: cards.splice(1,52)
+        hand: cards.splice(0,5)
       })
     }
 
